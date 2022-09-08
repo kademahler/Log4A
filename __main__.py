@@ -1,5 +1,4 @@
 import os
-import hashlib
 from time import strptime
 import collector_registry
 import collectors
