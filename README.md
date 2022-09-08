@@ -4,12 +4,12 @@
 Log4A allows you to quickly collect logs based on a time frame. It also is a modular system that allows you to implement "collectors" that collect different types of logs.
 
 ### Collectors
-Collectors are the actual code grabbing logs. There are two types of collectors implemented in Log4A. 
+Collectors are the actual log grabbing code. There are two types of collectors implemented in Log4A. 
 
 - General Collectors
 - Timed Collectors
 
-General collectors are not timed based. They are intended to quickly grab certain files for as desired for extraction.
+General collectors are not timed based. They are intended to quickly grab certain files as desired for extraction.
 
 Timed Collectors take two arguments: a begin_time and end_time, both being of datetime type. The collector takes these dates and then grabs the logs accordingly, only exporting the specified date range.
 
