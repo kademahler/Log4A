@@ -23,7 +23,9 @@ print()
 
 timed_collectors_used = False
 for collector in collector_registry.ALL_COLLECTORS:
-    if collector.is_timed: timed_collectors_used = True
+    if collector.is_timed: 
+        timed_collectors_used = True
+        break
 
 if timed_collectors_used: get_time_input()
 
