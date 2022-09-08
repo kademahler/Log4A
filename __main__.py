@@ -21,7 +21,11 @@ def get_time_input():
 print("Log4A - Log 4 Aggregation - A basic log collector")
 print()
 
-get_time_input()
+timed_collectors_used = False
+for collector in collector_registry.ALL_COLLECTORS:
+    if collector.is_timed: timed_collectors_used = True
+
+if timed_collectors_used: get_time_input()
 
 print("Starting Collectors...")
 print("")
