@@ -33,6 +33,7 @@ print("Starting Collectors...")
 print("")
 
 results_path = f"{os.path.dirname(os.path.realpath(__file__))}/results"
+if not os.path.isdir(results_path): os.mkdir(results_path)
 general_log = open(f"{results_path}/general.txt", 'w')
 
 general_log.write("Starting collections\n\n")
