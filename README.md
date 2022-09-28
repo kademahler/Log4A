@@ -1,4 +1,4 @@
-# Log4A - Log 4 Aggregation - A Basic Forensic Logging Tool
+# Log4A - Log 4 Aggregation - A Basic Forensic Log Collection Tool
 
 ## Basic Features
 Log4A allows you to quickly collect logs based on a time frame. It also is a modular system that allows you to implement "collectors" that collect different types of logs.
